@@ -1,52 +1,52 @@
-# DmitriRender 簡介與現況說明
+# DmitriRender 简介与现况说明
 
-📘 教學參考文章（Tutorial Article）：  
+📘 教学参考文章（Tutorial Article）：  
 👉 [https://www.gdaily.org/22179/dmitrirender-60fps](https://www.gdaily.org/22179/dmitrirender-60fps)
 
-🙏 如果你覺得這份整理有幫助，歡迎多多支持我們的網站！
+🙏 如果你觉得这份整理有帮助，欢迎多多支持我们的网站！
 
 ---
 
-## 中文說明
+## 中文说明
 
-### 🔹 軟體簡介
+### 🔹 软件简介
 
-**DmitriRender** 是一款基於 DirectShow 架構的即時影片插幀（frame interpolation）濾鏡，由 Dmitri Zdorov 開發。它的主要功能是透過插入中間畫面，將影片的幀率提升至 60fps 或更高，提供更流暢的播放效果。
+**DmitriRender** 是一款基于 DirectShow 架构的实时视频插帧（frame interpolation）滤镜，由 Dmitri Zdorov 开发。它的主要功能是透过插入中间画面，将视频的帧率提升至 60fps 或更高，提供更流畅的播放效果。
 
-該工具以簡單易用、效能開銷低為主要特點，可搭配 MPC-HC、PotPlayer 等播放器使用，是許多高幀率影片愛好者的選擇之一。
-
----
-
-### 🔹 開發狀況
-
-目前 **DmitriRender 已停止開發**，且 **官方網站已無法訪問**。最後版本並未開源，也無社群接手持續維護。未來可能出現相容性下降的情況，請用戶注意風險。
+该工具以简单易用、性能占用低为主要特点，可搭配 MPC-HC、PotPlayer 等播放器使用，是许多高帧率视频爱好者的选择之一。
 
 ---
 
-### 🔹 附加檔案與說明
+### 🔹 开发状况
 
-- `dmitriRender_3.0.0.1.exe`：**3.0 穩定版安裝檔案**
-- `dmitriRender_5.0.0.1_beta1.zip`：**5.0 測試版壓縮安裝檔案**
-- `Watermark` 資料夾：用於 **5.0 版本移除浮水印**
-- `DmitriRender-retime.bat`：**用於重置 3.0 版本的試用時間**
-- **3.0 版本相容 GPU 系列**：
+目前 **DmitriRender 已停止开发**，且 **官方网站已无法访问**。最终版本并未开源，也无社区接手持续维护。未来可能出现兼容性下降的情况，请用户注意风险。
+
+---
+
+### 🔹 附加文件与说明
+
+- `dmitriRender_3.0.0.1.exe`：**3.0 稳定版安装文件**
+- `dmitriRender_5.0.0.1_beta1.zip`：**5.0 测试版压缩安装文件**
+- `Watermark` 文件夹：用于 **5.0 版本移除水印**
+- `DmitriRender-retime.bat`：**用于重置 3.0 版本的试用时间**
+- **3.0 版本兼容 GPU 系列**：
   - AMD RX 5700 系列  
   - NVIDIA GTX 16XX 系列  
-  - NVIDIA Maxwell / Pascal 架構顯卡  
-  - NVIDIA RTX 2000 系列  
-  - Universal 驅動支援顯卡
+  - NVIDIA Maxwell / Pascal 架构显卡
+  - NVIDIA RTX 2000 系列
+  - Universal (RTX30) 驱动支持显卡
 
 ---
 
-### ⚠️ 使用須知
+### ⚠️ 使用须知
 
-我**並非這些補丁或工具的開發者**，僅是整理與彙整資料方便大家使用。
+我**并非这些补丁或工具的开发者**，但是整理与汇整资料方便大家使用。
 
-部分補丁使用 **Jongan DLL 劫持技術（DLL Hijacking）**，可能被防毒軟體誤判為可疑檔案。請根據個人情況自行評估是否使用，並建議在乾淨的測試環境下操作。
+部分补丁使用 **Jongan DLL 劫持技术（DLL Hijacking）**，可能被防毒软件误认为可疑文件。请根据个人情況自行判断是否使用，并建议在干净的测试环境下操作。
 
 ---
 
-🕒 最後更新：2025年6月
+🕒 最后更新：2025年6月
 
 ---
 
